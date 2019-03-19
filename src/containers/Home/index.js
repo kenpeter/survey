@@ -20,6 +20,10 @@ class Home extends Component {
     this.props.loadHomeAPIProps();
   }
 
+  filterClick = (e) => {
+    console.log(this.state);
+  }
+
   favoriteColorChange = (e) => {
     this.setState({favoriteColor: e.target.value});
   }
@@ -36,8 +40,6 @@ class Home extends Component {
   render() {
     const { data } = this.props;
 
-    console.log(this.state);
-
     return (
       <div>
         {
@@ -49,6 +51,7 @@ class Home extends Component {
               favoriteColorChange={this.favoriteColorChange}
               favoriteFruitChange={this.favoriteFruitChange}
               genderChange={this.genderChange}
+              filterClick={this.filterClick}
               state={this.state}
             />
         }
