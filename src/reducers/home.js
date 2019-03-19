@@ -78,11 +78,6 @@ export const loadHomeAPI = () => {
         return res.json();
       })
       .then(res => {
-
-        //test
-        console.log('--res--');
-        console.log(res);
-
         dispatch(loadHomeSuccess(res));
       })
       .catch((err) => {
