@@ -80,14 +80,6 @@ export const loadHomeAPI = ({ favoriteColor, favoriteFruit, gender }) => {
       })
       .then(res => {
 
-        /*
-        console.log('--');
-        console.log(favoriteColor);
-        console.log(favoriteFruit);
-        console.log(gender);
-        console.log(res);
-        */
-
         const data = orgnizeSurveyData(res, favoriteColor, favoriteFruit, gender);
         dispatch(loadHomeSuccess(data));
       })

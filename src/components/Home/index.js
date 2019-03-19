@@ -1,9 +1,23 @@
 import React from 'react';
+import Chart from '../Chart';
 
-const Home = ({ data, favoriteColorChange, favoriteFruitChange, genderChange, filterClick, state }) => {
+const Home = ({
+  data,
+  colorChartData,
+  fruitChartData,
+  favoriteColorChange,
+  favoriteFruitChange,
+  genderChange,
+  filterClick,
+  state
+}) => {
 
   return (
     <div className='home'>
+      <Chart className="chart" data={colorChartData}/>
+
+      <Chart className="chart" data={fruitChartData}/>
+
       <div className="filter">
         <select className="favoriteColor" value={state.favoriteColor} onChange={favoriteColorChange}>
           <option value=""></option>
