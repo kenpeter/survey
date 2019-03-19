@@ -1,9 +1,3 @@
-*******************************************************************************
-***
-***   ESUPERFUND Frontend Developer Homework Test
-***
-*******************************************************************************
-
 Your task is to create a Single Page Application (SPA) base on the business scenario
 below.
 
@@ -27,16 +21,6 @@ Use NPM;
 Use SCSS for styling;
 DO NOT use <table> tag, instead, Use flex;
 
-
-Other Information:
-
-You will have 48 hours to complete this Test and return your work to our office.
-Once you download the test script, we will start the count down.
-Please email your work in a zip file to recruitment@esuperfund.com.au.
-If you do not want to participate in this first round Homework Test,
-you can simply disregard this test and not return your work.
-If you need more time, please email
-to recruitment@esuperfund.com.au, stating your name, extra hours you need and the reason.
 
 
 You can generate the survey data from https://www.json-generator.com/

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e3bebbc-8d35-4281-b11e-6ed09600b121" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/helpers/survey.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +24,7 @@
           <entry key="html" value="9" />
           <entry key="js" value="1676" />
           <entry key="json" value="42" />
-          <entry key="md" value="1" />
+          <entry key="md" value="136" />
           <entry key="scss" value="58" />
         </counts>
       </usages-collector>
@@ -35,7 +33,7 @@
           <entry key="HTML" value="9" />
           <entry key="JSON" value="42" />
           <entry key="JavaScript" value="1676" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="136" />
           <entry key="SCSS" value="58" />
         </counts>
       </usages-collector>
@@ -45,8 +43,9 @@
           <entry key="html" value="2" />
           <entry key="js" value="17" />
           <entry key="json" value="6" />
+          <entry key="md" value="1" />
           <entry key="scss" value="1" />
-          <entry key="txt" value="2" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -55,7 +54,8 @@
           <entry key="HTML" value="2" />
           <entry key="JSON" value="6" />
           <entry key="JavaScript" value="17" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="1" />
         </counts>
       </usages-collector>
@@ -80,12 +80,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Home/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-128">
+            <state relative-caret-position="396">
               <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#126#191#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="144">
+                <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -102,7 +123,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/helpers/survey.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="534">
@@ -134,8 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/test.txt" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/history.js" />
         <option value="$PROJECT_DIR$/src/store.js" />
@@ -154,6 +173,8 @@
         <option value="$PROJECT_DIR$/src/containers/Home/index.js" />
         <option value="$PROJECT_DIR$/src/reducers/home.js" />
         <option value="$PROJECT_DIR$/src/helpers/survey.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/test.txt" />
       </list>
     </option>
   </component>
@@ -256,12 +277,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552992331245</updated>
-      <workItem from="1552992333317" duration="9713000" />
+      <workItem from="1552992333317" duration="10113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9713000" />
+    <option name="totallyTimeSpent" value="10113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="23" width="1232" height="777" extended-state="6" />
@@ -296,14 +317,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/history.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -362,13 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -404,31 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Home/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#126#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="801">
@@ -443,6 +424,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
           <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#126#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
