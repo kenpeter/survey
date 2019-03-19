@@ -1,4 +1,5 @@
 import getSurvey from '../api/survey';
+import orgnizeSurveyData from "../helpers/survey";
 
 export const START_LOAD_HOME = 'app/home/START_LOAD_HOME';
 export const LOAD_HOME_SUCCESS = 'app/home/LOAD_HOME_SUCCESS';
@@ -70,7 +71,7 @@ export const loadHomeFail = (errors) => {
   };
 };
 
-export const loadHomeAPI = () => {
+export const loadHomeAPI = ({ favoriteColor, favoriteFruit, gender }) => {
   return dispatch => {
     dispatch(startLoadHome());
     getSurvey()
@@ -78,7 +79,17 @@ export const loadHomeAPI = () => {
         return res.json();
       })
       .then(res => {
-        dispatch(loadHomeSuccess(res));
+
+        /*
+        console.log('--');
+        console.log(favoriteColor);
+        console.log(favoriteFruit);
+        console.log(gender);
+        console.log(res);
+        */
+
+        const data = orgnizeSurveyData(res, favoriteColor, favoriteFruit, gender);
+        dispatch(loadHomeSuccess(data));
       })
       .catch((err) => {
         loadHomeFail(err);

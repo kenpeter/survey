@@ -17,11 +17,12 @@ class Home extends Component {
 
   componentDidMount() {
     /* eslint-disable react/destructuring-assignment */
-    this.props.loadHomeAPIProps();
+    this.props.loadHomeAPIProps(this.state);
   }
 
   filterClick = (e) => {
-    console.log(this.state);
+    // fire reducer
+    this.props.loadHomeAPIProps(this.state);
   }
 
   favoriteColorChange = (e) => {
@@ -35,7 +36,6 @@ class Home extends Component {
   genderChange = (e) => {
     this.setState({gender: e.target.value});
   }
-
 
   render() {
     const { data } = this.props;
@@ -71,7 +71,7 @@ const mapStateToProps = (state) => {
 };
 
 const mapDispatchToProps = dispatch => ({
-  loadHomeAPIProps: () => dispatch(loadHomeAPI())
+  loadHomeAPIProps: (obj) => dispatch(loadHomeAPI(obj))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home);
